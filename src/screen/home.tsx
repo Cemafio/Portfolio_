@@ -61,7 +61,7 @@ function HomePage() {
             Hi, I'm
         </h2>
         <h1 className="text-5xl md:text-6xl font-bold mt-1 leading-tight font-['Space_Grotesk',sans-serif] text-white">
-            Fiononantsoa Césaire Marcellin
+            Césaire Marcellin
         </h1>
         <h2 className="text-2xl text-slate-400 mt-3 font-['Space_Grotesk',sans-serif]">
             Développeur Mobile & IA.
@@ -97,7 +97,7 @@ function HomePage() {
             <a href="#" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="text-slate-500 hover:text-teal-400">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8.25h4V23h-4V8.25Zm7.5 0h3.83v2.02h.05c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.13V23h-4v-6.7c0-1.6-.03-3.65-2.22-3.65-2.23 0-2.57 1.74-2.57 3.54V23h-4V8.25Z"/></svg>
             </a>
-            <a href="mailto:fiononantsoacesarmarcellin@mail.com" aria-label="Email" className="text-slate-500 hover:text-teal-400">
+            <a href="mailto:cesarmarcellin@mail.com" aria-label="Email" className="text-slate-500 hover:text-teal-400">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
             </a>
         </div>
