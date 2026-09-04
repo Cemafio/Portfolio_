@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.head_div{
+    width: 200;
+    height: 100;
+    background-color: rgb(38, 38, 38);
+    border: 1px solid white;
+}
+
+@theme {
+  --color-white-nav: #FFFFFF;
+}
