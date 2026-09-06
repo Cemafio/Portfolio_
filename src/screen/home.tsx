@@ -60,7 +60,7 @@ function HomePage() {
         <h2 className="text-lg text-teal-400 mt-8 font-['JetBrains_Mono',monospace]">
             Hi, I'm
         </h2>
-        <h1 className="text-5xl md:text-6xl font-bold mt-1 leading-tight font-['Space_Grotesk',sans-serif] text-white">
+        <h1 className="text-4xl md:text-6xl font-bold mt-1 leading-tight font-['Space_Grotesk',sans-serif] text-white">
             FIONONANTSOA Césaire Marcellin
         </h1>
         <h2 className="text-2xl text-slate-400 mt-3 font-['Space_Grotesk',sans-serif]">
