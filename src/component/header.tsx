@@ -1,9 +1,7 @@
-import { Icon } from "lucide-react";
 import "../css/header.css";
 import Button from "./button";
 import MenuBar from "./menu";
 import {
-  Home,
   Phone
 } from "lucide-react";
 
