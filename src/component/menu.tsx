@@ -12,11 +12,11 @@ function MenuBar() {
       icon: Home,
     },
     {
-      name: "Projets",
+      name: "Projects",
       icon: FolderKanban,
     },
     {
-      name: "Expérience",
+      name: "Experience",
       icon: Briefcase,
     },
   ];

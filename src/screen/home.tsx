@@ -16,7 +16,7 @@ const projects = [
   },
   {
     name: "TTS-STT Malagasy",
-    stack: "React, Python",
+    stack: "React, Python, SpeechT5, Google Coolab",
     description:
       "Modèle d'IA capable de reconnaître et générer des phrases en malagasy. Préparation des données, entraînement avec Python et SpeechT5, prototype de démonstration.",
   },
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     name: "ORIENT'IA",
-    stack: "React, RAG, LLM, ML",
+    stack: "React, RAG, LLM, Python, Google Coolab",
     description:
       "Assistant d'orientation académique propulsé par l'IA, conçu pour un hackathon à l'ISPM. Combine machine learning classique, RAG et un agent conversationnel LLM.",
   },
@@ -54,7 +54,7 @@ function HomePage() {
       <Header />
 
       {/* HERO */}
-    <section className="max-w-3xl mx-auto px-6 pt-24 pb-20 pt-50 flex flex-col items-center text-center">
+    <section className="max-w-3xl mx-auto px-6 pt-24 pb-20 pt-50 flex flex-col items-center text-center" id="accueil">
         <ContainProfil />
 
         <h2 className="text-lg text-teal-400 mt-8 font-['JetBrains_Mono',monospace]">
@@ -142,7 +142,7 @@ function HomePage() {
       </section>
 
       {/* EXPERIENCE */}
-      <section className="max-w-3xl mx-auto px-6 py-16">
+      <section className="max-w-3xl mx-auto px-6 py-16" id="experience">
         <h3 className="text-2xl font-bold font-['Space_Grotesk',sans-serif] text-white">
           Expérience
         </h3>
@@ -151,7 +151,7 @@ function HomePage() {
             <h4 className="text-xl font-semibold font-['Space_Grotesk',sans-serif] text-white">
               Teko Consulting
             </h4>
-            <span className="text-sm text-slate-500 font-['JetBrains_Mono',monospace]">
+            <span className="text-sm text-teal-400 font-['JetBrains_Mono',monospace]">
               Stage — 3 mois
             </span>
           </div>
