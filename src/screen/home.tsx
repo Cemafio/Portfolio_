@@ -61,7 +61,7 @@ function HomePage() {
             Hi, I'm
         </h2>
         <h1 className="text-5xl md:text-6xl font-bold mt-1 leading-tight font-['Space_Grotesk',sans-serif] text-white">
-            Césaire Marcellin
+            FIONONANTSOA Césaire Marcellin
         </h1>
         <h2 className="text-2xl text-slate-400 mt-3 font-['Space_Grotesk',sans-serif]">
             Développeur Mobile & IA.
@@ -195,8 +195,9 @@ function HomePage() {
       {/* CONTACT */}
       <section className="max-w-3xl mx-auto px-6 py-16 text-center">
         <h3 className="text-2xl font-bold font-['Space_Grotesk',sans-serif] text-white">
-          Travaillons ensemble
+          Un projet en tête ?
         </h3>
+
         <p className="text-slate-400 mt-3">
           Ouvert aux opportunités et collaborations.
         </p>
