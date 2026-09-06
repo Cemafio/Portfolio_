@@ -1,11 +1,19 @@
+import { Icon } from "lucide-react";
 import "../css/header.css";
 import Button from "./button";
 import MenuBar from "./menu";
+import {
+  Home,
+  Phone
+} from "lucide-react";
 
 function Header() {
   function clickAction() {
     console.log('Click');
   }
+
+  const Icon = Phone;
+
 
   return (
     <header className="fixed top-0 left-0 w-full z-50">
@@ -16,9 +24,16 @@ function Header() {
         <MenuBar />
         <Button
           onClick={clickAction}
-          className="bg-teal-400 text-slate-950 hover:bg-teal-300 rounded-full px-4 py-1.5 font-medium transition-colors"
+          className="flex items-center gap-2"
         >
-          Me contacter
+            <Icon
+            size={17}
+            strokeWidth={2}
+            className="transition-transform duration-300 group-hover:scale-110 menuIcon"
+          />
+          <span className="textMenu">
+           Me contacter
+          </span>
         </Button>
       </div>
     </header>

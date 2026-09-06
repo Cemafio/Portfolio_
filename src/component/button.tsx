@@ -29,7 +29,7 @@ function Button({
     <button
       type={type}
       onClick={onClick}
-      className={`px-4 py-2 rounded-md font-medium transition-colors ${variants[variant]} ${className}`}
+      className={`px-3 py-2 rounded-xl font-medium transition-colors ${variants[variant]} ${className}`}
       {...rest}
     >
       {children}

@@ -10,3 +10,8 @@
 @theme {
   --color-white-nav: #FFFFFF;
 }
+@media (max-width: 768px) {
+  .textMenu {
+    display: none;
+  }
+}
