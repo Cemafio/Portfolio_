@@ -83,7 +83,8 @@ function HomePage() {
             Voir mes projets
             </a>
             <a
-            href="/cv-cesar-marcellin.pdf"
+            href="/Cesair Marcellin stage cv.pdf"
+            download="Cesair Marcellin stage cv.pdf"
             className="px-5 py-2.5 border border-slate-700 rounded-md font-medium text-slate-200 hover:border-teal-400 hover:text-teal-400 transition-colors"
             >
             Télécharger mon CV
