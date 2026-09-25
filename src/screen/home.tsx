@@ -12,7 +12,7 @@ const projects = [
     name: "Salma",
     stack: "Flutter, Symfony, PostgreSQL",
     description:
-      "Application mobile et web de prise de rendez-vous médicaux. Interface Flutter, API REST avec Symfony, géolocalisation via Google Maps API, authentification JWT.",
+      "Application mobile et web de prise de rendez-vous médicaux avec géolocalisation via Google Maps API. Facilite la communication entre patients et professionnels de santé.",
   },
   {
     name: "TTS-STT Malagasy",
@@ -21,22 +21,16 @@ const projects = [
       "Modèle d'IA capable de reconnaître et générer des phrases en malagasy. Préparation des données, entraînement avec Python et SpeechT5, prototype de démonstration.",
   },
   {
-    name: "GESTY",
-    stack: "Flutter, NestJS, PostgreSQL, Neon",
-    description:
-      "Application de gestion financière personnelle. Développement mobile Flutter, API REST avec NestJS, design sur Figma, authentification JWT.",
-  },
-    {
     name: "Nokou",
-    stack: "Flutter, Isar",
+    stack: "Flutter, Isar, LLM",
     description:
-      "Application mobile de gestion de tâches et de note qui marche en local. Développement avec Flutter, base de données Isar.",
+      "Logiciel et Application mobile de prise de note et de tache assistée par l'IA. Un peut comme un petit assistant personnel pour vous aider à organiser vos idées ou notes et vos tâches.",
   },
   {
     name: "ORIENT'IA",
     stack: "React, RAG, LLM, Python, Google Coolab",
     description:
-      "Assistant d'orientation académique propulsé par l'IA, conçu pour un hackathon à l'ISPM. Combine machine learning classique, RAG et un agent conversationnel LLM.",
+      "Assistant d'orientation académique propulsé par l'IA, conçu pour un hackathon à l'ISPM. Il utilise un modèle de langage pour fournir des conseils personnalisés aux étudiants sur les choix de filières et d'universités.",
   },
 ]
 
@@ -64,16 +58,15 @@ function HomePage() {
             FIONONANTSOA Césaire Marcellin
         </h1>
         <h2 className="text-2xl text-slate-400 mt-3 font-['Space_Grotesk',sans-serif]">
-            Développeur Mobile & IA.
+            Développeur Full-Stack & IA.
         </h2>
 
-        <p className="text-slate-400 mt-5 max-w-md leading-relaxed">
-            En Master 2 Électronique, Systèmes Informatiques et Intelligence
-            Artificielle à l'ISPM. J'ai développé des applications web et
-            mobiles complètes en stage et en projets — de l'interface Flutter
+        {/* <p className="text-slate-400 mt-5 max-w-md leading-relaxed">
+            Actuellement Master 2 en ESIIA à l'Institut Supérieur Politechnique de Madagascar (ISPM). J'ai développé des applications web et
+            mobiles complètes en stage et en projets personnels — de l'interface
             aux API REST, jusqu'à des modèles d'IA. Basé à Antananarivo,
             Madagascar.
-        </p>
+        </p> */}
 
         <div className="flex flex-wrap gap-3 mt-8 justify-center">
             <a
@@ -109,12 +102,9 @@ function HomePage() {
             À propos
             </h3>
             <p className="text-slate-400 mt-4 leading-relaxed">
-            Actuellement en Master 2 ESIIA (Électronique, Systèmes Informatiques
-            et Intelligence Artificielle) à l'Institut Supérieur Polytechnique
-            de Madagascar (ISPM), 2025-2026. Après un stage de 3 mois chez Teko
-            Consulting où j'ai développé des applications web en Symfony et PHP,
-            j'ai continué à construire des projets full-stack et des modèles
-            d'IA, du prototype jusqu'à l'interface finale.
+              Actuellement en Master 2 ESIIA (Électronique, Systèmes Informatiques et Intelligence Artificielle) à l'Institut Supérieur Polytechnique de Madagascar (ISPM), je suis passionné par le développement d'applications complètes, du prototype jusqu'à l'interface finale.
+
+              J'ai eu l'occasion de développer des applications web en Symfony et PHP lors d'un stage de 3 mois chez Teko Consulting. En parallèle de mon parcours universitaire, je continue à construire des projets full-stack, web comme mobile, ainsi que des modèles d'IA — toujours avec cette envie d'aller du concept jusqu'au produit fini. 
             </p>
       </section>
 
