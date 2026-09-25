@@ -61,13 +61,6 @@ function HomePage() {
             Développeur Full-Stack & IA.
         </h2>
 
-        {/* <p className="text-slate-400 mt-5 max-w-md leading-relaxed">
-            Actuellement Master 2 en ESIIA à l'Institut Supérieur Politechnique de Madagascar (ISPM). J'ai développé des applications web et
-            mobiles complètes en stage et en projets personnels — de l'interface
-            aux API REST, jusqu'à des modèles d'IA. Basé à Antananarivo,
-            Madagascar.
-        </p> */}
-
         <div className="flex flex-wrap gap-3 mt-8 justify-center">
             <a
             href="#projects"
@@ -165,7 +158,7 @@ function HomePage() {
           {projects.map((project) => (
             <div
               key={project.name}
-              className="border border-slate-800 rounded-lg p-6 hover:border-teal-400 transition-colors bg-white/[0.02]"
+              className="border border-slate-800 rounded-lg p-6 hover:border-teal-400 transition-colors bg-white/[0.02] cursor-pointer"
             >
               <div className="flex items-baseline justify-between flex-wrap gap-2">
                 <h4 className="text-xl font-semibold font-['Space_Grotesk',sans-serif] text-white">
