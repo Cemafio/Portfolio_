@@ -286,7 +286,7 @@ export default function HomePage() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-orange-400" />
             </span>
             <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-orange-300 sm:text-xs">
-              Disponible pour un stage de fin d'études
+              Disponible
             </span>
           </div>
 
